@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Domine:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 0px;
+}
+p {
+  font-size: 1.5rem;
+}
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5%;
+  vertical-align: top;
+  background-color: blanchedalmond;
+  width: 100%;
+  min-height: 40px;
+}
+
+#header-img {
+  width: 18rem;
+  display: flex;
+}
+.nav-links {
+  list-style: none;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px, 20px;
+}
+.nav-links li a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: black;
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  color: #016d88;
+}
+p {
+  overflow: auto;
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
