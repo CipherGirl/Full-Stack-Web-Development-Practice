@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 5%;
+  padding: 5px 3%;
   vertical-align: top;
   background-color: blanchedalmond;
   width: 100%;
@@ -24,7 +24,9 @@ header {
 }
 
 #header-img {
-  width: 18rem;
+  width: 25%;
+  min-width: 15rem;
+  height: auto;
   display: flex;
 }
 .nav-links {
@@ -38,7 +40,7 @@ header {
 }
 .nav-links li a {
   text-decoration: none;
-  padding-left: 10px;
+  padding-right: 13px;
   color: black;
   transition: all 0.3s ease 0s;
 }
@@ -52,4 +54,11 @@ p {
   header {
     flex-wrap: wrap;
   }
+}
+.container {
+  margin: auto 5%;
+  text-align: justify;
+}
+#intro {
+  padding-top: 50px;
 }
